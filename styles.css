@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+nav {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contenedor {
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tarjeta {
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid #007bff;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #e9ecef;
+    transition: 0.3s;
+}
+
+.tarjeta.seleccionada {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px 10px 0;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
